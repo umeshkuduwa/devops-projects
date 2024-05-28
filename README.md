@@ -10,35 +10,23 @@ Description:
 
 This project aimed to streamline the deployment process of the production application by integrating several DevOps practices and tools. The key objectives and tasks included:
 
-Dockerization of the Production Application:
+Dockerization of the Production Application: Containerized the existing application to ensure consistency across various environments and to simplify the deployment process.
 
-Containerized the existing application to ensure consistency across various environments and to simplify the deployment process.
+Kubernetes Deployment: Deployed the Dockerized application on Kubernetes, leveraging its orchestration capabilities to manage and scale the application efficiently.
 
-Kubernetes Deployment:
-
-Deployed the Dockerized application on Kubernetes, leveraging its orchestration capabilities to manage and scale the application efficiently.
-
-Continuous Integration/Continuous Deployment (CI/CD) Pipeline with Jenkins:
-
-Set up a Jenkins freestyle pipeline that automatically deploys the latest version of the application whenever changes are detected in the GitHub repository.
+Continuous Integration/Continuous Deployment (CI/CD) Pipeline with Jenkins: Set up a Jenkins freestyle pipeline that automatically deploys the latest version of the application whenever changes are detected in the GitHub repository.
 
 Incorporated testing steps to verify the application's functionality on port 85 before proceeding with the deployment.
 
-NodePort Service for Application Accessibility:
-
-Created a Jenkins pipeline to deploy the application on Kubernetes using a custom Docker image stored on Dockerhub.
+NodePort Service for Application Accessibility: Created a Jenkins pipeline to deploy the application on Kubernetes using a custom Docker image stored on Dockerhub.
 
 Ensured the application is exposed as a NodePort Service for external accessibility.
 
-Infrastructure Automation with Terraform:
+Infrastructure Automation with Terraform: Automated the creation of necessary infrastructure resources using Terraform, ensuring a consistent and reproducible environment setup.
 
-Automated the creation of necessary infrastructure resources using Terraform, ensuring a consistent and reproducible environment setup.
+Configuration Management with Ansible: Used Ansible to install Java on the required machines, streamlining the configuration management process and ensuring all dependencies are met.
 
-Configuration Management with Ansible:
-
-Used Ansible to install Java on the required machines, streamlining the configuration management process and ensuring all dependencies are met.
-
-This project significantly improved the deployment process's efficiency, reliability, and scalability, ultimately enhancing the overall productivity of the technical team at Zendrix Corporation.
+This project significantly improved the deployment process's efficiency, reliability, and scalability, ultimately enhancing the overall productivity.
 
 Technologies: Docker, Kubernetes, Jenkins, Terraform, Ansible and GitHub.
 
