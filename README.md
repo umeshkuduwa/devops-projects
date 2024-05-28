@@ -62,7 +62,25 @@ Description: Brief description of the project, its objectives, and the technolog
 
 Technologies: List the technologies and tools used.
 
-AWS Tasks Documentation
+DevOps Tools Tasks and Case Studies :
+
+I have also uploaded various tasks and case studies to demonstrate my expertise in different DevOps tools and practices :
+
+Ansible: Configuration management and automation tasks. Case studies on efficient software deployment and configuration.
+
+Git: Version control tasks. Case studies on collaborative workflows and branch management.
+
+Kubernetes: Deployment and orchestration tasks. Case studies on scaling and managing containerized applications.
+
+Jenkins: CI/CD pipeline tasks. Case studies on automating build, test, and deployment processes.
+
+Terraform: Infrastructure as Code tasks. Case studies on automating and managing cloud infrastructure.
+
+
+
+
+
+AWS Tasks and Case Studies :
 
 I have uploaded detailed documentation for various AWS tasks, showcasing my expertise in managing and optimizing AWS services. Below is a list of the tasks with a brief description of each.
 
