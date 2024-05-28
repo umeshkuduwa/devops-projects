@@ -28,63 +28,45 @@ I have uploaded detailed documentation for various AWS tasks, showcasing my expe
 
 Auto Scaling Groups
 
-Description:
-
 Detailed steps on creating and configuring Auto Scaling Groups.
 Explanation of scaling policies and triggers.
 
 Auto Scaling
-
-Description:
 
 In-depth guide on setting up Auto Scaling for applications.
 Best practices for ensuring high availability and cost efficiency.
 
 EC2
 
-Description:
-
 Documentation on launching and managing EC2 instances.
 Various use cases including security, monitoring, and optimization.
 
 ELB (Elastic Load Balancing)
-
-Description:
 
 Guide on setting up and configuring Elastic Load Balancers.
 Strategies for improving application reliability and performance.
 
 Migration (DMS)
 
-Description:
-
 Comprehensive steps for migrating databases using AWS Database Migration Service.
 Tips and best practices for a smooth migration process.
 
 RDS (Relational Database Service)
-
-Description:
 
 Instructions on setting up and managing RDS instances.
 Focus on backup, recovery, and performance tuning.
 
 Route 53
 
-Description:
-
 Detailed guide on configuring DNS with Route 53.
 Use cases including traffic management and domain registration.
 
 S3 (Simple Storage Service)
 
-Description:
-
 Steps for setting up and managing S3 buckets.
 Tips for optimizing storage costs and securing data.
 
 VPC (Virtual Private Cloud)
-
-Description:
 
 Guide on creating and configuring VPCs.
 Best practices for network segmentation and security.
