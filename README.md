@@ -4,7 +4,7 @@ I'm a DevOps Engineer with extensive experience in designing, implementing, and 
 
 Projects :
 
-Project 1: Comprehensive DevOps Automation and Deployment (Capstone DevOps Project)
+Project 1: Comprehensive DevOps Automation and Deployment (Capstone DevOps Project - 1)
 
 Description:
 
@@ -28,13 +28,33 @@ Configuration Management with Ansible: Used Ansible to install Java on the requi
 
 This project significantly improved the deployment process's efficiency, reliability, and scalability, ultimately enhancing the overall productivity.
 
-Technologies: Docker, Kubernetes, Jenkins, Terraform, Ansible and GitHub.
+Technologies: Docker, Kubernetes, Jenkins, Terraform, Ansible, GitHub, NodePort and DockerHub.
 
-Project 2: [Project Title]
+Project 2: Robust and Secure Software Architecture Deployment (DevOps Capstone Project - 2)
 
-Description: Brief description of the project, its objectives, and the technologies used.
+Description:
 
-Technologies: List the technologies and tools used.
+As a Solutions Architect, I led a project to revamp the company's software architecture to enhance robustness and security. Key tasks included:
+
+Regional Deployment: Deployed software in a US AWS region to meet regional requirements.
+
+Private Instances: Ensured instances had no public IPs and no direct internet access for enhanced security.
+
+Scalable Storage Solution: Implemented scalable storage to accommodate unpredictable space requirements.
+
+Shared Storage: Set up real-time shared storage among servers.
+
+Auto Scaling: Configured automatic scaling for CPU usage above 80%.
+
+Managed Database: Migrated the database to a managed AWS service for improved fault tolerance.
+
+Automated Deployment with CodeDeploy: Used CodeDeploy for automatic updates to the Auto Scaling Group.
+
+Kubernetes Integration: Created a container from the GitHub Dockerfile and deployed it to an AWS Kubernetes cluster using a NodePort service for accessibility.
+
+This project provided a secure, scalable, and fault-tolerant architecture to meet the company's evolving needs.
+
+Technologies: AWS (EC2, S3, RDS), Auto Scaling, CodeDeploy, Kubernetes, Docker, GitHub and NodePort.
 
 Project 3: [Project Title]
 
