@@ -56,11 +56,37 @@ This project provided a secure, scalable, and fault-tolerant architecture to mee
 
 Technologies: AWS (EC2, S3, RDS), Auto Scaling, CodeDeploy, Kubernetes, Docker, GitHub and NodePort.
 
-Project 3: [Project Title]
+Project 3: Azure Multi-Region Deployment for Website Architecture (Azure Capstone Project)
 
-Description: Brief description of the project, its objectives, and the technologies used.
+Description: As an Azure DevOps Engineer, I implemented a robust and distributed website architecture across two regions. The project involved setting up multiple web pages, configuring an Application Gateway, and managing Azure Storage and VMs. Key tasks included:
 
-Technologies: List the technologies and tools used.
+Web Page Deployment: Home Page (VM2): Default landing page.
+
+Upload Page (VM1): Interface for file uploads to Azure Blob Storage.
+
+Error Page: Custom 403 and 502 error handling.
+
+Application Gateway Configuration: Route traffic to home page (example.com) and upload page (example.com/upload). Point error pages to a static error.html hosted in Azure Containers.
+
+Multi-Region Deployment: Deployed resources in Central US and West US for optimal traffic distribution using Azure Traffic Manager.
+
+Azure Storage Setup: Hosted error.html as a static website for error handling. Created an "upload" container for file uploads.
+
+VM and VNet Configuration: Deployed VMs inside VNets in both regions.
+
+Cloned the GitHub repository to all VMs and executed deployment scripts:
+
+VM1: Deployed the upload page.
+
+VM2: Deployed the home page.
+
+Edited config.py on VM1 to configure storage account details.
+
+VNet Peering: Connected VNets in both regions using VNet-VNet peering for seamless integration.
+
+This architecture ensured high availability, optimal traffic distribution, and efficient error handling for the company's website.
+
+Technologies: Azure (VMs, VNets, Blob Storage, Application Gateway, Traffic Manager, VNet Peering), GitHub and Python
 
 DevOps Tools Tasks and Case Studies :
 
@@ -75,10 +101,6 @@ Kubernetes: Deployment and orchestration tasks. Case studies on scaling and mana
 Jenkins: CI/CD pipeline tasks. Case studies on automating build, test, and deployment processes.
 
 Terraform: Infrastructure as Code tasks. Case studies on automating and managing cloud infrastructure.
-
-
-
-
 
 AWS Tasks and Case Studies :
 
@@ -128,6 +150,26 @@ VPC (Virtual Private Cloud)
 
 Guide on creating and configuring VPCs.
 Best practices for network segmentation and security.
+
+Azure Tasks and Case Studies :
+
+I have also uploaded detailed documentation for various Azure Technology tasks, showcasing my expertise in managing and optimizing Azure services as well. Below is a list of the tasks with a brief description of each.
+
+Azure ARM: Tasks and case studies on Azure Resource Manager.
+
+Storage: Management and optimization of Azure Storage solutions.
+
+App and Container: Deployment and management of Azure App Services and Containers.
+
+Authentication and Authorization: Implementing RBAC and securing resources.
+
+Basic Tasks: Creating resource groups, VMs, and other fundamental Azure services.
+
+Monitoring: Setting up and configuring Azure Monitor and related services.
+
+Networking: Managing VNets, subnets, and network security.
+
+VM and Advanced VM: Deploying and configuring VMs with advanced settings.
 
 Additional Information
 
